@@ -1,0 +1,23 @@
+{
+	"name": "fake-google-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"author": "Mark",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"express-async-handler": "^1.2.0",
+		"mongoose": "^6.5.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19",
+		"prettier": "^2.7.1"
+	}
+}
